@@ -15,23 +15,16 @@ UPLOAD_FOLDER = os.path.join(dir_path, 'static', 'files')
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
-# config = {
-#     'host': 'cloudcomputing.mysql.database.azure.com',
-#     'user': 'pavankumarpotta',
-#     'password': 'Varunbike@1234',
-#     'database': 'cloudcomputing',
-#     'port': 3306,
-#     'connect_timeout': 50000
-# }
-
 config = {
-    'host': 'reshmithacloud.mysql.database.azure.com',
-    'user': 'reshmitha',
-    'password': 'ABCabc1@',
-    'database': 'reshmithacloud',
+    'host': 'cloudcomputing.mysql.database.azure.com',
+    'user': 'pavankumarpotta',
+    'password': 'Varunbike@1234',
+    'database': 'cloudcomputing',
     'port': 3306,
     'connect_timeout': 50000
 }
+
+
 
 
 def get_https_url(item, data):
